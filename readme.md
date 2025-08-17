@@ -1,12 +1,12 @@
 # Overview
-Repository ini dibuat sebagai materi LLM-Powered Chatbot with Streamlit. Pada repository ini digunakan streamlit sebagai user interface sehingga pengguna dapat berinteraksi langsung dengan RAG (Retrieval Augmented-Generation) yang telah dibuat. Repository ini menggunakan LangChain v0.3 dan Google Gemini sebagai modelnya.
+Repository ini dibuat sebagai Final Tugas LLM-Powered Chatbot with Streamlit. Pada repository ini digunakan streamlit sebagai user interface sehingga pengguna dapat berinteraksi langsung dengan RAG (Retrieval Augmented-Generation) yang telah dibuat. Repository ini menggunakan LangChain v0.3 dan Google Gemini sebagai modelnya.
 
 # SetUp & Installation
 Setup & Installation
 1. Clone atau download repostiroy ini
 ```bash
-git clone https://github.com/mazprimrez/sic6-chatbot-with-streamlit.git
-cd sic6-chatbot-with-streamlit
+git clone https://github.com/mazprimrez/sic6-chatbot-with-streamlit](https://github.com/Mintflavours/RAG-Chatbot-X-LangChain-X-Streamlit.git
+cd RAG-Chatbot-X-LangChain-X-Streamlit
 ```
 2. Install Dependencies:
 ```bash
@@ -22,6 +22,11 @@ GOOGLE_API_KEY = "GOOGLE API KEY"
 ```
 4. Run Streamlit di local
 ```bash
-streamlit run main.py
+python -m streamlit run main.py
 ```
-5. Lalu deploy ke [https://share.streamlit.io/](https://share.streamlit.io/)
+
+5. URL Local
+   
+Local URL: http://localhost:8501
+Network URL: http://local IP:8501
+...
